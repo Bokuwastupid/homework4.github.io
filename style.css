@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #95e1d3;
+    size: 25px;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+nav {
+    width: 1200px;
+    margin: auto;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    font-size: 17px;
+    line-height: 23px;
+    color: #95E1D3;
+    display: flex;
+    list-style: none;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.menu-list>li:hover {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+    padding-bottom: 10px;
+}
+
+.hero {
+    width: 275px;
+    height: 150px;
+    margin: auto;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero>p {
+    font-family: "Kaushan Script", cursive;
+}
+
+.hero>h1 {
+    font-size: 30px;
+    line-height: 37px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.hero>div {
+    width: 60px;
+    height: 4px;
+    background-color: #f38181;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.services {
+    width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.service {
+    display: flex;
+    width: 331px;
+    justify-content: space-between;
+}
+
+.service-image {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.team-text {
+    color: #dff0f4;
+    width: 1104px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.team-section {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.teammate>h3 {
+    color: #333333;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+}
+
+.teammate>p {
+    font-family: 'Roboto', sans-serif;
+    color: #c9ddd9;
+    margin-top: 11px;
+}
+
+footer {
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.footer-description {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe>input {
+    padding: 12px 0 11px 10px;
+    border: 1px solid #b6b6b6;
+    border-right: none;
+}
+
+.subscribe>button {
+    padding: 11px 38px 12px 38px;
+    border: none;
+    background: #95e1d3;
+    color: #fff;
+}
